@@ -3,34 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f6f3e9">
+<meta name="theme-color" content="#f4e69e">
 <meta name="description" content="RIVIERAのLINE相談窓口。希望する金額や確認したいことを、LINEのトークからご相談ください。">
 <title>LINE相談窓口｜RIVIERA</title>
 <link rel="icon" href="../assets/icons/money.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/icons/money-180.png">
 <link rel="stylesheet" href="../assets/fonts/index.css">
 <style>
-:root{color-scheme:light;--ink:#203e32;--green:#06c755;--line:#d6ddd2;--paper:#f6f3e9}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans JP",sans-serif;line-height:1.8}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #c28413;outline-offset:5px}
-.shell{max-width:680px;margin:auto;padding:0 24px}header{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid var(--line)}.wordmark{font-family:Georgia,serif;font-size:25px;letter-spacing:.13em;font-weight:bold}.desk{font-size:11px;letter-spacing:.06em}
-.hero{padding:32px 0}.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 170px;gap:10px;align-items:center}h1{font-size:clamp(27px,5vw,40px);line-height:1.65;letter-spacing:.01em;margin:0;font-weight:800}.character{position:relative;width:170px;aspect-ratio:303/462}.character img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
-.action{margin-top:22px;text-align:center}.hours{font-size:12px;margin:0 0 10px}.line-button{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:80px;padding:20px;background:var(--green);color:#fff;text-decoration:none;border:1px solid transparent;border-radius:10px;font-size:20px;line-height:1.4;font-weight:700;box-shadow:0 3px 0 #05a747;touch-action:manipulation;-webkit-tap-highlight-color:transparent}.line-button:active{background:#05b34c;box-shadow:0 1px 0 #049a40}.line-icon{width:40px;height:40px;flex-shrink:0;display:block}.line-button .chevron{width:9px;height:9px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-right:4px}@media(hover:hover){.line-button:hover{background:#05bc50}}.button-label{flex:1}.note{font-size:11px;color:#5d6d64;margin:10px 0 0}
-footer{padding:18px 0 24px;border-top:1px solid var(--line);font-size:10px;color:#657168}footer p{margin:10px 0 0}.footer-head{display:flex;justify-content:space-between;align-items:center;font-size:11px}.privacy{margin-top:12px}.privacy summary{font-size:11px;cursor:pointer}.privacy p{font-size:11px;line-height:1.8}.skip{position:absolute;left:10px;top:-80px;background:white;padding:10px;z-index:2}.skip:focus{top:10px}
-@media(max-width:480px){.shell{padding:0 20px}header{padding:16px 0}.wordmark{font-size:23px}.hero{padding:28px 0}.hero-grid{grid-template-columns:minmax(0,1fr) 110px;gap:0}.character{width:110px}h1{font-size:clamp(24px,6.6vw,31px)}.line-button{font-size:18px;min-height:80px;padding:20px}.action{margin-top:24px}}
-@media(max-width:350px){.shell{padding:0 16px}.hero-grid{grid-template-columns:minmax(0,1fr) 95px}.character{width:95px}h1{font-size:23px}.note{font-size:10px}}
+:root{color-scheme:light;--ink:#252c27;--green:#06c755;--line:#dedfd7;--paper:#f8f7f2;--yellow:#f4e69e}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font-family:"Noto Sans JP Variable","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.85;-webkit-font-smoothing:antialiased}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #c28413;outline-offset:5px}
+.shell{max-width:680px;margin:auto;padding:0 24px}header{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid var(--line)}.brand-logo{display:block;width:240px;height:auto;flex-shrink:0}.desk{font-size:11px;letter-spacing:.06em;white-space:nowrap;color:#22563c}header{gap:14px}
+.hero{padding:32px 24px;margin:0 -24px;background:var(--yellow)}.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 170px;gap:10px;align-items:center}h1{font-size:clamp(27px,5vw,40px);line-height:1.5;letter-spacing:-.04em;margin:0;font-weight:700}.character{position:relative;width:170px;aspect-ratio:210/245;overflow:hidden;transform:scaleX(-1)}.character-art{position:absolute;left:-23.8095%;top:-10.2041%;width:144.2857%;aspect-ratio:303/462}.character img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.action{margin-top:22px;text-align:center}.hours{font-size:12px;margin:0 0 10px}.line-button{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:80px;padding:20px;background:var(--green);color:#fff;text-decoration:none;border:1px solid transparent;border-radius:10px;font-size:20px;line-height:1.4;font-weight:700;box-shadow:0 3px 0 #05a747;touch-action:manipulation;-webkit-tap-highlight-color:transparent}.line-button:active{background:#05b34c;box-shadow:0 1px 0 #049a40}.line-icon{width:40px;height:40px;flex-shrink:0;display:block}.line-button .chevron{width:9px;height:9px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-right:4px}@media(hover:hover){.line-button:hover{background:#05bc50}}.button-label{flex:1}.note{font-size:11px;color:#535940;margin:10px 0 0}
+footer{padding:18px 0 24px;border-top:1px solid var(--line);font-size:10px;color:#606860}footer p{margin:10px 0 0}.footer-head{display:flex;justify-content:space-between;align-items:center;font-size:11px}.privacy{margin-top:12px}.privacy summary{font-size:11px;cursor:pointer}.privacy p{font-size:11px;line-height:1.8}.skip{position:absolute;left:10px;top:-80px;background:white;padding:10px;z-index:2}.skip:focus{top:10px}
+@media(max-width:480px){.shell{padding:0 20px}header{padding:16px 0}.brand-logo{display:block;width:240px;height:auto;flex-shrink:0}.hero{padding:28px 20px;margin:0 -20px}.hero-grid{grid-template-columns:minmax(0,1fr) 130px;gap:0}.character{width:130px}h1{font-size:clamp(24px,6.6vw,31px)}.line-button{font-size:18px;min-height:80px;padding:20px}.action{margin-top:24px}}
+@media(max-width:350px){.shell{padding:0 16px}.hero{padding-inline:16px;margin-inline:-16px}.brand-logo{width:168px}.hero-grid{grid-template-columns:minmax(0,1fr) 108px}.character{width:108px}h1{font-size:23px}.note{font-size:10px}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">本文へ進む</a>
 <div class="shell">
-<header><span class="wordmark">RIVIERA</span><span class="desk">LINE相談窓口</span></header>
+<header><img class="brand-logo" src="../assets/brand.svg?v=edamame-3" width="240" height="60" alt="ずんだもんのカードローン案内"><span class="desk">LINE相談窓口</span></header>
 <main id="main">
 <section class="hero" aria-labelledby="hero-title">
 
 <div class="hero-grid"><div class="hero-copy"><h1 id="hero-title">借入れの相談は、<br>LINEから。</h1></div>
-<div class="character" role="img" aria-label="相談を案内するずんだもん">
+<div class="character" role="img" aria-label="相談を案内するずんだもん"><div class="character-art">
 <img src="../assets/zundamon/body.png" alt="" width="303" height="462"><img src="../assets/zundamon/left-hip.png" alt="" width="303" height="462"><img src="../assets/zundamon/right-point.png" alt="" width="303" height="462"><img src="../assets/zundamon/cheeks.png" alt="" width="303" height="462"><img src="../assets/zundamon/brow-normal.png" alt="" width="303" height="462"><img src="../assets/zundamon/ears.png" alt="" width="303" height="462"><img src="../assets/zundamon/eye-white.png" alt="" width="303" height="462"><img src="../assets/zundamon/eye-pupils.png" alt="" width="303" height="462"><img src="../assets/zundamon/mouth-closed.png" alt="" width="303" height="462">
-</div></div>
+</div></div></div>
 <div class="action"><p class="hours">メッセージ受付 24時間</p><a class="line-button" href="https://lin.ee/UreIXI0"><img class="line-icon" src="line-brand.png" width="40" height="40" alt=""><span class="button-label">LINEで相談する</span><span class="chevron" aria-hidden="true"></span></a><p class="note">LINEが開きます。友だち追加してご相談ください。</p></div>
 </section>
 </main>
