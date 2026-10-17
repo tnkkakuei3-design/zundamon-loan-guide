@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#194e3b">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="今日中にお金が必要なときに。ずんだもんと、カードローンの金利・返済額・申込条件を確認。借入前のポイントと返済額の試算ができます。">
+  <meta name="description" content="今日中にお金が必要なときに。ずんだもんと、カードローンの金利・返済額・申込条件を確認。商品概要・相談の流れ・問い合わせ情報をご案内します。">
   <meta property="og:title" content="ずんだもんのカードローン案内">
   <meta property="og:description" content="借りる前に、条件と返済額をチェック。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tnkkakuei3-design.github.io/zundamon-loan-guide/">
   <link rel="icon" href="assets/edamame.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/fonts/index.css">
-  <link rel="stylesheet" href="styles.css?v=logo-2">
+  <link rel="stylesheet" href="styles.css?v=guide-3">
   <title>ずんだもんのカードローン案内</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
       
       <img src="assets/brand.svg" width="240" height="60" alt="ずんだもんのカードローン案内">
     </a>
-    <nav aria-label="ページ内メニュー"><a href="#points">確認事項</a><a href="#faq">よくある質問</a><a class="header-cta" href="#simulation">返済試算</a></nav>
+    <nav aria-label="ページ内メニュー"><a href="#details">商品概要</a><a href="#flow">相談の流れ</a><a class="header-cta" href="#contact">お問い合わせ</a></nav>
   </header>
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
@@ -47,37 +47,13 @@
             </div>
           </div>
         </div>
-        <div class="hero-actions"><a class="button primary" href="#simulation">返済額を計算する <span aria-hidden="true">↓</span></a><a class="hero-secondary" href="#points">申込み前の確認事項</a><p>借入には審査があります。希望額を借りられるとは限りません。</p></div>
+        <div class="hero-actions"><a class="button primary" href="#contact">お問い合わせ先を確認する <span aria-hidden="true">↓</span></a><a class="hero-secondary" href="#points">申込み前の確認事項</a><p>借入には審査があります。希望額を借りられるとは限りません。</p></div>
       </div>
     </section>
 
-    <section class="simulation section" id="simulation" aria-labelledby="simulation-title">
-      <div class="wrap">
-        <div class="section-heading calculator-heading"><h2 id="simulation-title">返済額のシミュレーション</h2><p>金額・年利・回数から、毎月の返済額を計算します。</p></div>
-        <div class="calculator">
-          <form id="loan-form" class="calculator-form">
-            <div class="field"><label for="principal">借入金額</label><div class="input-with-unit"><input id="principal" name="principal" type="number" inputmode="decimal" min="0.1" max="500" step="0.1" value="10" required aria-describedby="amount-help"><span>万円</span></div><div class="presets" role="group" aria-label="借入金額の入力例"><button type="button" data-amount="5" aria-pressed="false">5万円</button><button type="button" data-amount="10" aria-pressed="true">10万円</button><button type="button" data-amount="20" aria-pressed="false">20万円</button><button type="button" data-amount="30" aria-pressed="false">30万円</button></div><small id="amount-help">入力できる金額：0.1〜500万円</small></div>
-            <div class="field-row"><div class="field"><label for="rate">年利</label><div class="input-with-unit"><input id="rate" name="rate" type="number" inputmode="decimal" min="0" max="20" step="0.1" value="18.0" required aria-describedby="rate-help"><span>％</span></div></div><div class="field"><label for="months">返済回数</label><div class="select-wrap"><select id="months" name="months"><option value="3">3回（3か月）</option><option value="6">6回（6か月）</option><option value="12" selected>12回（1年）</option><option value="24">24回（2年）</option><option value="36">36回（3年）</option></select></div></div></div>
-            <p class="input-note" id="rate-help">初期値の年18.0％は計算例です。特定の商品の金利ではありません。検討している商品の金利に変更してください。</p>
-            <p id="form-error" class="form-error" role="alert" hidden></p>
-            <button class="button primary calculate-button" type="submit">返済額を計算する <span aria-hidden="true">→</span></button>
-            <p class="privacy-hint"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="2"/><path d="M5 7V5a3 3 0 0 1 6 0v2"/></svg>入力した内容は外部に送信されません。</p>
-          </form>
-          <div class="calculator-result" id="result" aria-live="polite" aria-atomic="true">
-            <p class="result-eyebrow">毎月の返済額の目安</p>
-            <p class="monthly"><span class="approx">約</span><strong id="monthly">9,168</strong><span>円</span></p>
-            <p class="result-condition" id="result-condition">10万円・年18.0％・12回で試算</p>
-            <div class="result-rule"></div>
-            <dl><div><dt>返済総額</dt><dd><strong id="total">110,009</strong><span>円</span></dd></div><div><dt>うち利息</dt><dd><strong id="interest">10,009</strong><span>円</span></dd></div></dl>
-            <div class="cost-bar" role="img" aria-label="元金と利息の割合" id="cost-bar"><span id="principal-bar"></span><span id="interest-bar"></span></div>
-            <div class="bar-legend"><span><i></i>元金</span><span><i></i>利息</span></div>
-            <p class="result-note">毎月の返済額を見て、生活費と両立できるか確認しましょう。</p>
-          </div>
-          <div class="calculation-detail"><details id="schedule-detail"><summary>月ごとの返済内訳を見る <span aria-hidden="true">＋</span></summary><div class="schedule-scroll"><table><caption>返済予定の概算（単位：円）</caption><thead><tr><th scope="col">回数</th><th scope="col">返済額</th><th scope="col">うち利息</th><th scope="col">返済後残高</th></tr></thead><tbody id="schedule-body"></tbody></table></div></details></div>
-        </div>
-        <p class="calculation-note">一定の年利・毎月返済の元利均等方式による概算です。年利を12で割った月利を使用し、手数料・追加借入れ・無利息期間は含みません。最終回は残高に合わせて調整します。実際の商品が採用する返済方式・日割計算・端数処理により、金額は異なります。</p>
-        <noscript><p class="input-note">試算の更新にはJavaScriptを有効にしてください。表示値は初期条件の計算例です。</p></noscript>
-      </div>
+    <section class="section wrap info-section" id="details" aria-labelledby="details-title">
+      <div class="section-heading"><h2 id="details-title">商品概要</h2><p>申込み前に確認する貸付条件。</p></div>
+      <div><table class="information-table" aria-label="商品概要"><tbody><tr><th scope="row">貸付事業者</th><td></td></tr><tr><th scope="row">契約極度額</th><td></td></tr><tr><th scope="row">貸付利率（実質年率）</th><td></td></tr><tr><th scope="row">返済期間・回数</th><td></td></tr><tr><th scope="row">遅延損害金（年率）</th><td></td></tr><tr><th scope="row">返済方式</th><td></td></tr><tr><th scope="row">担保・連帯保証人</th><td></td></tr><tr><th scope="row">申込対象</th><td></td></tr><tr><th scope="row">申込方法</th><td></td></tr></tbody></table><p class="section-note">商品条件は現在掲載していません。正式な条件は、申込み先が提示する情報をご確認ください。</p></div>
     </section>
 
     <section class="section wrap points" id="points" aria-labelledby="points-title">
@@ -89,23 +65,42 @@
       </div>
     </section>
 
+    <section class="section wrap info-section" id="flow" aria-labelledby="flow-title">
+      <div class="section-heading"><h2 id="flow-title">ご相談から<br class="desktop-br">契約まで</h2><p>一般的な手続きの流れ。</p></div>
+      <ol class="flow-list">
+        <li><span class="step-number" aria-hidden="true">01</span><div><h3>相談窓口へ問い合わせ</h3><p>希望する借入れや不明点について、相談先の窓口へ問い合わせます。</p></div></li>
+        <li><span class="step-number" aria-hidden="true">02</span><div><h3>商品・必要書類の確認</h3><p>金利や返済条件、申込対象と必要書類を確認します。</p></div></li>
+        <li><span class="step-number" aria-hidden="true">03</span><div><h3>申込み・審査</h3><p>貸付事業者へ申込み、所定の審査を受けます。結果によっては希望に添えない場合があります。</p></div></li>
+        <li><span class="step-number" aria-hidden="true">04</span><div><h3>契約内容を確認</h3><p>返済額や契約条件に同意したうえで契約します。融資は貸付事業者が定める手続きで行われます。</p></div></li>
+      </ol>
+    </section>
+
     <section class="section wrap faq" id="faq" aria-labelledby="faq-title">
       <div class="section-heading"><h2 id="faq-title">よくある質問</h2></div>
       <details name="faq"><summary><span class="q">Q.</span>「最短」の時間で、必ず借りられますか？<span class="plus" aria-hidden="true">＋</span></summary><p>必ず借りられるという意味ではありません。申込時間・審査状況などによって時間がかかる場合があります。対象サービスの公式サイトで、適用条件を確認してください。</p></details>
-      <details name="faq"><summary><span class="q">Q.</span>このページから申込みできますか？<span class="plus" aria-hidden="true">＋</span></summary><p>このページでは、借入前の確認ポイントと返済額の目安を確認できます。申込み・審査・契約は、検討している金融会社の公式サイトで行ってください。このページで申込みや個人情報を受け付けることはありません。</p></details>
-      <details name="faq"><summary><span class="q">Q.</span>試算結果と、実際の返済額は同じですか？<span class="plus" aria-hidden="true">＋</span></summary><p>同じとは限りません。返済方式、借入日、手数料、端数処理などによって変わります。試算は予算を考えるための目安として使い、契約前に金融会社が示す返済条件を確認してください。</p></details>
+      <details name="faq"><summary><span class="q">Q.</span>このページから申込みできますか？<span class="plus" aria-hidden="true">＋</span></summary><p>このページでは、借入前の確認事項と相談の流れをご案内しています。申込み・審査・契約は、検討している金融会社の公式サイトで行ってください。このページで申込みや個人情報を受け付けることはありません。</p></details>
+      <details name="faq"><summary><span class="q">Q.</span>相談しただけで契約になりますか？<span class="plus" aria-hidden="true">＋</span></summary><p>相談だけで借入契約が成立するものではありません。申込みや契約の前に、金利・返済方法・手数料などを確認してください。</p></details>
       <details name="faq"><summary><span class="q">Q.</span>本人確認書類は何が必要ですか？<span class="plus" aria-hidden="true">＋</span></summary><p>必要な書類は金融会社や申込方法によって異なります。利用できる本人確認書類、住所確認書類、収入を確認する書類の要否を、申込み先の案内で確認してください。</p></details>
     </section>
 
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap info-section">
+        <div class="section-heading"><h2 id="contact-title">お問い合わせ</h2><p>RIVIERAコールセンター</p></div>
+        <div><table class="information-table" aria-label="問い合わせ情報"><tbody><tr><th scope="row">受付時間</th><td>24時間</td></tr><tr><th scope="row">電話番号</th><td></td></tr><tr><th scope="row">オンライン窓口</th><td></td></tr></tbody></table><p class="section-note">現在、連絡先は掲載していません。このページから相談や申込みを送信することはできません。</p></div>
+      </div>
+    </section>
+
   </main>
-  <footer class="site-footer wrap">
-    <div class="footer-top"><a class="brand" href="#top"><img src="assets/brand.svg" width="240" height="60" alt="ずんだもんのカードローン案内"></a><button class="plain-button" id="about-button" type="button" aria-haspopup="dialog">このサイトについて</button></div>
+  <footer class="site-footer wrap" id="company">
+    <div class="footer-top"><a class="brand" href="#top"><img src="assets/brand.svg" width="240" height="60" alt="ずんだもんのカードローン案内"></a><button class="plain-button" id="about-button" data-dialog="about-dialog" type="button" aria-haspopup="dialog">このサイトについて</button></div>
     <table aria-label="会社情報"><tbody><tr><th scope="row">会社名</th><td style="text-align:left">RIVIERA</td></tr><tr><th scope="row">本社所在地</th><td></td></tr><tr><th scope="row">貸金業登録番号</th><td></td></tr><tr><th scope="row">日本貸金業協会会員番号</th><td></td></tr></tbody></table>
     <p>借入条件を確認するための情報ページです。融資・審査・契約の受付は行っていません。</p>
+    <div class="footer-links"><a href="#details">商品概要</a><a href="#company">会社情報</a><button class="plain-button" data-dialog="privacy-dialog" type="button" aria-haspopup="dialog">個人情報の取扱い</button></div>
     <div class="sources"><span>確認に役立つ情報</span><a href="https://www.fsa.go.jp/policy/kashikin/" target="_blank" rel="noopener noreferrer">金融庁 <span aria-label="新しいタブで開く">↗</span></a><a href="https://www.j-fsa.or.jp/personal/borrowing/diagnosis/loanlife/" target="_blank" rel="noopener noreferrer">日本貸金業協会 <span aria-label="新しいタブで開く">↗</span></a></div>
     <p class="credits">キャラクター：ずんだもん ／ 立ち絵：坂本アヒル（パーツ化：NightWork）<br>本ページはキャラクターの公式サイトではありません。</p>
   </footer>
-  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="閉じる">×</button><h2 id="about-title">このサイトについて</h2><p>カードローンを検討するときの確認ポイントと、返済額の概算を案内する情報ページです。特定の金融会社による公式案内、審査結果、融資条件の提示ではありません。</p><h3>会社情報</h3><table aria-label="会社情報"><tbody><tr><th scope="row">会社名</th><td style="text-align:left">RIVIERA</td></tr><tr><th scope="row">本社所在地</th><td></td></tr><tr><th scope="row">貸金業登録番号</th><td></td></tr><tr><th scope="row">日本貸金業協会会員番号</th><td></td></tr></tbody></table><h3>入力情報の取扱い</h3><p>試算に入力した数値は、ブラウザ内の計算にのみ使います。このサイトから外部に送信したり、入力履歴を保存したりしません。</p><h3>情報の確認先</h3><p>正式な金利・手数料・申込対象・返済方法は、利用を検討している金融会社の公式情報を確認してください。</p><button class="button primary dialog-done" type="button">閉じる</button></div></dialog>
-  <script type="module" src="app.js"></script>
+  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="閉じる">×</button><h2 id="about-title">このサイトについて</h2><p>カードローンを検討するときの確認事項と、相談の流れを案内する情報ページです。特定の金融会社による公式案内、審査結果、融資条件の提示ではありません。</p><h3>会社情報</h3><table aria-label="会社情報"><tbody><tr><th scope="row">会社名</th><td style="text-align:left">RIVIERA</td></tr><tr><th scope="row">本社所在地</th><td></td></tr><tr><th scope="row">貸金業登録番号</th><td></td></tr><tr><th scope="row">日本貸金業協会会員番号</th><td></td></tr></tbody></table><h3>このページでの受付</h3><p>入力フォームは設置していません。このページから申込みや個人情報を送信することはできません。</p><h3>情報の確認先</h3><p>正式な金利・手数料・申込対象・返済方法は、利用を検討している金融会社の公式情報を確認してください。</p><button class="button primary dialog-done" type="button">閉じる</button></div></dialog>
+  <dialog id="privacy-dialog" aria-labelledby="privacy-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="閉じる">×</button><h2 id="privacy-title">個人情報の取扱い</h2><p>このページには、氏名・電話番号・相談内容などを送信する入力フォームはありません。</p><h3>相談窓口を利用するとき</h3><p>別の窓口で相談や申込みをする際は、送信先の事業者が提示する利用目的と個人情報の取扱いをご確認ください。</p><button class="button primary dialog-done" type="button">閉じる</button></div></dialog>
+  <script type="module" src="app.js?v=guide-3"></script>
 </body>
 </html>
