@@ -42,7 +42,7 @@ HTML上の透明レイヤー合成。見出しに向かう案内役として配�
 
 ## ロゴ
 
-`docs/assets/brand.svg` は枝豆のさやと和文文字を一体化したベクターロゴ。Noto Sans JP の字形をアウトライン化し、見出し・補助文字のサイズと字間を調整しています。文字のライセンスは `docs/assets/fonts/LICENSE` を参照。`docs/assets/edamame.svg` は同じマークのファビコンです。
+`docs/assets/brand.svg` は円マーク・コイン・リングと和文文字を一体化したベクターロゴ。Noto Sans JP の字形をアウトライン化し、見出し・補助文字のサイズと字間を調整しています。文字のライセンスは `docs/assets/fonts/LICENSE` を参照。現在のファビコンは `docs/assets/icons/money.svg` と同名のPNGを使用しています。
 
 ## 案内ページ
 
@@ -55,4 +55,4 @@ HTML上の透明レイヤー合成。見出しに向かう案内役として配�
 
 ## サイトアイコン
 
-RIVIERAの専用モノグラム（緑地・白いR）を設定。`docs/assets/icons/riviera.svg` を元に、32px PNG・180px Apple Touch Icon・16/32/48px入りICOを作成し、全4ページから参照しています。本文の枝豆ロゴは維持しています。Safari実機でのタブ表示は未確認です。
+参考画像の方向性に合わせ、青い円マーク・黄色いコイン・ピンクのリングで構成したベクターマークへ変更。ヘッダーとフッターのロゴマーク、タブのファビコン、Apple Touch Iconを統一しています。和文ロゴ文字は濃い墨色に変更。Safari実機のタブ表示は未確認です。
