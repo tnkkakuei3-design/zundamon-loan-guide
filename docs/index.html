@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#194e3b">
+  <meta name="theme-color" content="#22563c">
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="今日中にお金が必要なときに。ずんだもんと、カードローンの金利・返済額・申込条件を確認。商品概要・相談の流れ・問い合わせ情報をご案内します。">
   <meta property="og:title" content="ずんだもんのカードローン案内">
@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://tnkkakuei3-design.github.io/zundamon-loan-guide/">
   <link rel="icon" href="assets/edamame.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/fonts/index.css">
-  <link rel="stylesheet" href="styles.css?v=guide-3">
+  <link rel="stylesheet" href="styles.css?v=guide-4">
   <title>ずんだもんのカードローン案内</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
       
       <img src="assets/brand.svg" width="240" height="60" alt="ずんだもんのカードローン案内">
     </a>
-    <nav aria-label="ページ内メニュー"><a href="#details">商品概要</a><a href="#flow">相談の流れ</a><a class="header-cta" href="#contact">お問い合わせ</a></nav>
+    <nav aria-label="メインメニュー"><a href="#details">商品概要</a><a href="#flow">相談の流れ</a><a class="header-cta" href="contact/">相談窓口</a></nav>
   </header>
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="hero-actions"><a class="button primary" href="#contact">お問い合わせ先を確認する <span aria-hidden="true">↓</span></a><a class="hero-secondary" href="#points">申込み前の確認事項</a><p>借入には審査があります。希望額を借りられるとは限りません。</p></div>
+        <div class="hero-actions"><a class="button primary" href="contact/">相談窓口を確認する <span aria-hidden="true">→</span></a><a class="hero-secondary" href="#points">申込み前の確認事項</a><p>借入には審査があります。希望額を借りられるとは限りません。</p></div>
       </div>
     </section>
 
@@ -86,21 +86,17 @@
     <section class="section contact-section" id="contact" aria-labelledby="contact-title">
       <div class="wrap info-section">
         <div class="section-heading"><h2 id="contact-title">お問い合わせ</h2><p>RIVIERAコールセンター</p></div>
-        <div><table class="information-table" aria-label="問い合わせ情報"><tbody><tr><th scope="row">受付時間</th><td>24時間</td></tr><tr><th scope="row">電話番号</th><td></td></tr><tr><th scope="row">オンライン窓口</th><td></td></tr></tbody></table><p class="section-note">現在、連絡先は掲載していません。このページから相談や申込みを送信することはできません。</p></div>
+        <div><table class="information-table" aria-label="問い合わせ情報"><tbody><tr><th scope="row">受付時間</th><td>24時間</td></tr><tr><th scope="row">電話番号</th><td></td></tr><tr><th scope="row">オンライン窓口</th><td></td></tr></tbody></table><p class="section-note">現在、連絡先は掲載していません。このページから相談や申込みを送信することはできません。</p><a class="text-link contact-link" href="contact/">相談窓口の案内を見る <span aria-hidden="true">→</span></a></div>
       </div>
     </section>
 
   </main>
   <footer class="site-footer wrap" id="company">
-    <div class="footer-top"><a class="brand" href="#top"><img src="assets/brand.svg" width="240" height="60" alt="ずんだもんのカードローン案内"></a><button class="plain-button" id="about-button" data-dialog="about-dialog" type="button" aria-haspopup="dialog">このサイトについて</button></div>
-    <table aria-label="会社情報"><tbody><tr><th scope="row">会社名</th><td style="text-align:left">RIVIERA</td></tr><tr><th scope="row">本社所在地</th><td></td></tr><tr><th scope="row">貸金業登録番号</th><td></td></tr><tr><th scope="row">日本貸金業協会会員番号</th><td></td></tr></tbody></table>
+    <div class="footer-top"><a class="brand" href="./"><img src="./assets/brand.svg" width="240" height="60" alt="ずんだもんのカードローン案内"></a><a class="operator-link" href="./company/">運営：RIVIERA</a></div>
     <p>借入条件を確認するための情報ページです。融資・審査・契約の受付は行っていません。</p>
-    <div class="footer-links"><a href="#details">商品概要</a><a href="#company">会社情報</a><button class="plain-button" data-dialog="privacy-dialog" type="button" aria-haspopup="dialog">個人情報の取扱い</button></div>
+    <nav class="footer-links" aria-label="フッターメニュー"><a href="./#details">商品概要</a><a href="./contact/">相談窓口</a><a href="./company/">会社情報</a><a href="./privacy/">個人情報の取扱い</a></nav>
     <div class="sources"><span>確認に役立つ情報</span><a href="https://www.fsa.go.jp/policy/kashikin/" target="_blank" rel="noopener noreferrer">金融庁 <span aria-label="新しいタブで開く">↗</span></a><a href="https://www.j-fsa.or.jp/personal/borrowing/diagnosis/loanlife/" target="_blank" rel="noopener noreferrer">日本貸金業協会 <span aria-label="新しいタブで開く">↗</span></a></div>
     <p class="credits">キャラクター：ずんだもん ／ 立ち絵：坂本アヒル（パーツ化：NightWork）<br>本ページはキャラクターの公式サイトではありません。</p>
   </footer>
-  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="閉じる">×</button><h2 id="about-title">このサイトについて</h2><p>カードローンを検討するときの確認事項と、相談の流れを案内する情報ページです。特定の金融会社による公式案内、審査結果、融資条件の提示ではありません。</p><h3>会社情報</h3><table aria-label="会社情報"><tbody><tr><th scope="row">会社名</th><td style="text-align:left">RIVIERA</td></tr><tr><th scope="row">本社所在地</th><td></td></tr><tr><th scope="row">貸金業登録番号</th><td></td></tr><tr><th scope="row">日本貸金業協会会員番号</th><td></td></tr></tbody></table><h3>このページでの受付</h3><p>入力フォームは設置していません。このページから申込みや個人情報を送信することはできません。</p><h3>情報の確認先</h3><p>正式な金利・手数料・申込対象・返済方法は、利用を検討している金融会社の公式情報を確認してください。</p><button class="button primary dialog-done" type="button">閉じる</button></div></dialog>
-  <dialog id="privacy-dialog" aria-labelledby="privacy-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="閉じる">×</button><h2 id="privacy-title">個人情報の取扱い</h2><p>このページには、氏名・電話番号・相談内容などを送信する入力フォームはありません。</p><h3>相談窓口を利用するとき</h3><p>別の窓口で相談や申込みをする際は、送信先の事業者が提示する利用目的と個人情報の取扱いをご確認ください。</p><button class="button primary dialog-done" type="button">閉じる</button></div></dialog>
-  <script type="module" src="app.js?v=guide-3"></script>
 </body>
 </html>
