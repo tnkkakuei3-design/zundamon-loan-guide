@@ -1,0 +1,194 @@
+{
+  "creator": "坂本アヒル",
+  "original_url": "https://seiga.nicovideo.jp/seiga/im10788496",
+  "conversion_creator": "NightWork",
+  "source_url": "https://nightwork.sakura.ne.jp/ukagaka/shell/Shikokumetan_Zundamon_Shellkit/Shikokumetan_Zundamon_Shellkit.html",
+  "archive_url": "https://nightwork.sakura.ne.jp/ukagaka/shell/Shikokumetan_Zundamon_Shellkit/Shikokumetan_Zundamon_Shell%2820230806%29.zip",
+  "archive_sha256": "e54467c53bb95398b29e427dbc2cfd740fd494186c803a338f19ec0c0ccee658",
+  "canvas": [
+    303,
+    462
+  ],
+  "assets": [
+    {
+      "id": "body",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/いつもの服.png",
+      "local_path": "public/media/zundamon-rig/body.png",
+      "sha256": "8aaf1bf126e9bd1df11bad259f792fa773dfd0786c5233b551b55dc02d76db1e"
+    },
+    {
+      "id": "ears",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/枝豆/枝豆通常.png",
+      "local_path": "public/media/zundamon-rig/ears.png",
+      "sha256": "f134c6f7400948ed658731667d883c1c1c6bec7dd781c9767eb95beb65c18a3e"
+    },
+    {
+      "id": "ears-low",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/枝豆/枝豆萎え.png",
+      "local_path": "public/media/zundamon-rig/ears-low.png",
+      "sha256": "cc80449284eea7223603f67365521cf7202a7957a55ffc2149354b897509c342"
+    },
+    {
+      "id": "cheeks",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/顔色/ほっぺ.png",
+      "local_path": "public/media/zundamon-rig/cheeks.png",
+      "sha256": "5c1dfa72bc7f790b2fdc431fe35b1982d7fc63ad25ef839dc2f79c8e17b2ab21"
+    },
+    {
+      "id": "brow-normal",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/眉/普通眉.png",
+      "local_path": "public/media/zundamon-rig/brow-normal.png",
+      "sha256": "a756fb2cb237265c1b374d43e32c38b0ac63e49118823fb31a6f5f8e995e802c"
+    },
+    {
+      "id": "brow-raised",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/眉/上がり眉.png",
+      "local_path": "public/media/zundamon-rig/brow-raised.png",
+      "sha256": "c4e75b806321a68983b17802d38912191cb471344519f90c7bc02f071d24f9de"
+    },
+    {
+      "id": "brow-concern",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/眉/困り眉1.png",
+      "local_path": "public/media/zundamon-rig/brow-concern.png",
+      "sha256": "8cba2054f81ae5a08599e1b578f288f04af1537e83e339e193f97bcb78d9c339"
+    },
+    {
+      "id": "brow-serious",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/眉/怒り眉.png",
+      "local_path": "public/media/zundamon-rig/brow-serious.png",
+      "sha256": "0426d81eb82f78a21a8c1f6e130f3e8db93c2d680a01746f4becf71ba211fd9d"
+    },
+    {
+      "id": "left-rest",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/左腕/基本.png",
+      "local_path": "public/media/zundamon-rig/left-rest.png",
+      "sha256": "f35828bf4e3e20973511ed293bb43a26de3b42684113d68224b76019b5fcdfe9"
+    },
+    {
+      "id": "left-hip",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/左腕/腰.png",
+      "local_path": "public/media/zundamon-rig/left-hip.png",
+      "sha256": "3a07bcb3257d2d3b4aa2bf2be04699ea0fa32a80a9b1520e55b76d93287e9746"
+    },
+    {
+      "id": "left-wave",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/左腕/手を挙げる.png",
+      "local_path": "public/media/zundamon-rig/left-wave.png",
+      "sha256": "0695bb052385126efbe6e0cdda964dadd84d55df235a05b147f16123417f909f"
+    },
+    {
+      "id": "left-think",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/左腕/考える.png",
+      "local_path": "public/media/zundamon-rig/left-think.png",
+      "sha256": "aa1a02ef6bddff6e21d9412e6c1f8baed348edc383148f113987efda150b3dea"
+    },
+    {
+      "id": "right-rest",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/右腕/基本.png",
+      "local_path": "public/media/zundamon-rig/right-rest.png",
+      "sha256": "94be081005979e89a555c33e5c8ba4f2986d34fa80fdc9868b8a7973e66d08e5"
+    },
+    {
+      "id": "right-point",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/右腕/指差し.png",
+      "local_path": "public/media/zundamon-rig/right-point.png",
+      "sha256": "42f2d48b80dc7b41bec2ce0acf4547c70b279bdd410e20da67b6708f803e4b98"
+    },
+    {
+      "id": "right-hip",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/右腕/腰.png",
+      "local_path": "public/media/zundamon-rig/right-hip.png",
+      "sha256": "78e01d4a17413e3efa4b8687030ef74d48b2b75b6364c3667d7f51aeb6386b5d"
+    },
+    {
+      "id": "right-wave",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/服装1/右腕/手を挙げる.png",
+      "local_path": "public/media/zundamon-rig/right-wave.png",
+      "sha256": "9c3d8fff9eb2a72db455b57788857de36daddd7f2cee1fd4b203e7aa2bb29398"
+    },
+    {
+      "id": "eye-white",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/目/目セット/普通白目.png",
+      "local_path": "public/media/zundamon-rig/eye-white.png",
+      "sha256": "12da76eccce7adf9d59d0d0b642f434abc8e142fd45ce20f155921328968c256"
+    },
+    {
+      "id": "eye-white-wide",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/目/目セット/見開き白目.png",
+      "local_path": "public/media/zundamon-rig/eye-white-wide.png",
+      "sha256": "db51197ebfe51fb68dac1cdc574c702b210507b2ebbd56cf9827245b3c18803d"
+    },
+    {
+      "id": "eye-pupils",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/目/目セット/黒目/カメラ目線.png",
+      "local_path": "public/media/zundamon-rig/eye-pupils.png",
+      "sha256": "1078427f7bc2c1111ccf0225eb23b58a8bfc7bddb6c12e2a33729980c330b756"
+    },
+    {
+      "id": "eye-pupils-wide",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/目/目セット/黒目/カメラ目線2.png",
+      "local_path": "public/media/zundamon-rig/eye-pupils-wide.png",
+      "sha256": "eca77f24ad2ba65f721334a3307c0997ee4c8aec672372a8cf2a174fdc96c034"
+    },
+    {
+      "id": "eye-pupils-side",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/目/目セット/黒目/目逸らし.png",
+      "local_path": "public/media/zundamon-rig/eye-pupils-side.png",
+      "sha256": "4630891dc63db4631f6a8b7223789b0c31386e89fb33a1d0e62bbe6d7fe27cec"
+    },
+    {
+      "id": "eye-closed",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/目/UU.png",
+      "local_path": "public/media/zundamon-rig/eye-closed.png",
+      "sha256": "38756add47b2e9c10546a0b6d309dd04620b646c30e9c5545c6a404a4c5609a7"
+    },
+    {
+      "id": "eye-smile",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/目/にっこり.png",
+      "local_path": "public/media/zundamon-rig/eye-smile.png",
+      "sha256": "b7ca134fab368a98b889b90b2eb87f50019c2b7e393c1304aefc8fd9cc1d7262"
+    },
+    {
+      "id": "mouth-closed",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/口/むふ.png",
+      "local_path": "public/media/zundamon-rig/mouth-closed.png",
+      "sha256": "d7d82260eaecb4556ff2688d14bebba672191ca3d16e7978315b4048d6a47946"
+    },
+    {
+      "id": "mouth-serious",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/口/むー.png",
+      "local_path": "public/media/zundamon-rig/mouth-serious.png",
+      "sha256": "ada34cca20b50da7d800d11a3727b9f9c23beecb3911b1d53cf7993ba3fe0d25"
+    },
+    {
+      "id": "mouth-small",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/口/ほー.png",
+      "local_path": "public/media/zundamon-rig/mouth-small.png",
+      "sha256": "96db1a42b2b84b6d08f274f3e425ac307fcfa0c6b77fc5b2236dc6f6da0f40b2"
+    },
+    {
+      "id": "mouth-e",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/口/ほあ.png",
+      "local_path": "public/media/zundamon-rig/mouth-e.png",
+      "sha256": "931ba2b0fcd3af0e51dc8856fedb9b23a6c7b4fb102e8a9ad70eaf0ad7c57fbc"
+    },
+    {
+      "id": "mouth-a",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/口/ほあー.png",
+      "local_path": "public/media/zundamon-rig/mouth-a.png",
+      "sha256": "5a74fe1edda4252c38fba644f109597e3d4f0d45276f1ada1aa286e5adac4019"
+    },
+    {
+      "id": "mouth-o",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/口/お.png",
+      "local_path": "public/media/zundamon-rig/mouth-o.png",
+      "sha256": "6cbff767f3b64f787362ce63c5639c732516909110ecdbb4eb248a10e3ef4f0b"
+    },
+    {
+      "id": "mouth-u",
+      "archive_path": "Shikokumetan_Zundamon_Shell(20230806)/Zundamon/口/ゆ.png",
+      "local_path": "public/media/zundamon-rig/mouth-u.png",
+      "sha256": "7b04949f810a3972061a4b888925380f952698dd25fb2ea29807a06dd1ee8371"
+    }
+  ]
+}

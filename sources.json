@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-17",
+  "financial": [
+    {
+      "url": "https://www.fsa.go.jp/policy/kashikin/",
+      "use": "借入前の金利・手数料・返済計画の確認ポイント"
+    },
+    {
+      "url": "https://www.j-fsa.or.jp/personal/borrowing/diagnosis/loanlife/",
+      "use": "一般的な返済試算の位置づけ。独自の元利均等計算を実装"
+    },
+    {
+      "url": "https://cyber.promise.co.jp/contents/html/LP_BAA_html01_index.html",
+      "use": "最短表示には条件があり状況により希望に沿えない場合があることの確認。対象商品としての紹介ではない"
+    }
+  ],
+  "character": {
+    "artist": "坂本アヒル",
+    "original": "https://seiga.nicovideo.jp/seiga/im10788496",
+    "layer_conversion": "NightWork",
+    "source": "https://nightwork.sakura.ne.jp/ukagaka/shell/Shikokumetan_Zundamon_Shellkit/Shikokumetan_Zundamon_Shellkit.html",
+    "guidelines": "https://zunko.jp/guideline_qa.html",
+    "manifest": "character-sources.json",
+    "commercial_permission_status": "not established; general informational preview, no lender application link"
+  },
+  "font": {
+    "name": "Noto Sans JP Variable",
+    "license": "SIL Open Font License 1.1",
+    "source": "@fontsource-variable/noto-sans-jp from existing video project"
+  },
+  "missing_information": [
+    "金融会社・金融商品名",
+    "正式な申込先URL",
+    "運営者情報",
+    "キャラクターの広告利用に適用する許諾"
+  ]
+}
