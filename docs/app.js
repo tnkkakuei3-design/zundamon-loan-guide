@@ -24,7 +24,7 @@ function refresh({report=false}={}){
 let timer;
 inputs.forEach(input=>input.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>refresh(),150);}));
 document.querySelectorAll('[data-amount]').forEach(button=>button.addEventListener('click',()=>{$('principal').value=button.dataset.amount;refresh();}));
-form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(timer);if(refresh({report:true})){$('result').classList.remove('result-updated');void $('result').offsetWidth;$('result').classList.add('result-updated');if(matchMedia('(max-width:700px)').matches)$('result').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth',block:'center'});}});
+form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(timer);if(refresh({report:true})){if(matchMedia('(max-width:700px)').matches)$('result').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth',block:'center'});}});
 const dialog=$('about-dialog'),about=$('about-button');
 about.addEventListener('click',()=>dialog.showModal());
 dialog.querySelectorAll('.dialog-close,.dialog-done').forEach(b=>b.addEventListener('click',()=>dialog.close()));

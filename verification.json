@@ -1,9 +1,10 @@
 {
-  "checked_at": "2026-10-17T04:49:13.505Z",
+  "checked_at": "2026-10-17T05:15:07.973Z",
   "calculation": "pass: fixed example, zero rate, single payment, repayment tradeoff, totals, bounds",
   "links_and_assets": "pass",
   "javascript_syntax": "checked separately",
-  "browser_visual_review": "pending public deployment review",
+  "browser_visual_review": "not run: Sites skill requires control-browser, which is unavailable in this environment",
   "application_link": "pending actual lender and URL",
-  "source_commit": "GitHub Pages, main:/docs"
+  "source_commit": "GitHub Pages, main:/docs",
+  "design_changes": "restrained typography, flat buttons, smaller character, calculator-first order, removed redundant decoration and sections"
 }
