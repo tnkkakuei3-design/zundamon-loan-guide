@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-17T06:56:05.265Z",
+  "checked_at": "2026-10-17T07:07:14.589Z",
   "pages_checked": 4,
-  "local_references_checked": 123,
+  "local_references_checked": 135,
   "links_and_assets": "pass",
   "javascript": "none required: navigation and FAQ use native HTML",
   "browser_visual_review": "not run: required control-browser is unavailable",
