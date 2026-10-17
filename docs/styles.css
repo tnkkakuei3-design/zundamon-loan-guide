@@ -230,3 +230,18 @@ dialog::backdrop { background: #252c2780; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Edamame symbol and outlined Japanese wordmark form one lockup. */
+.brand { display: inline-block; flex-shrink: 0; line-height: 0; }
+.brand img { display: block; width: 240px; height: auto; }
+.site-header { padding-block: 12px; }
+.site-footer .brand img { width: 200px; }
+@media (max-width: 700px) {
+  .site-header .brand img { width: 196px; }
+  .site-footer .brand img { width: 168px; }
+  .footer-top { gap: 10px; }
+}
+@media (max-width: 350px) {
+  .site-footer .brand img { width: 152px; }
+  .plain-button { font-size: 10px; }
+}

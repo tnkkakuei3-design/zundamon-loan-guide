@@ -34,7 +34,7 @@ assert.equal(ids.length,new Set(ids).size,'Duplicate HTML IDs');
 for(const m of html.matchAll(/\bhref="#([^"]+)"/g))assert.ok(ids.includes(m[1]),`Missing anchor ${m[1]}`);
 for(const m of html.matchAll(/\b(?:src|href)="([^"#][^"]*)"/g)){
   if(/^https?:/.test(m[1]))continue;
-  assert.ok(fs.existsSync(path.join('docs',m[1])),`Missing asset ${m[1]}`);
+  assert.ok(fs.existsSync(path.join('docs',m[1].split('?')[0])),`Missing asset ${m[1]}`);
 }
 assert.ok(html.includes('初期値の年18.0％は計算例'));
 assert.ok(!html.includes('href="#"'));
