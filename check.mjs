@@ -50,7 +50,7 @@ const report = {
   links_and_assets: 'pass',
   javascript: 'none required: navigation and FAQ use native HTML',
   browser_visual_review: 'not run: required control-browser is unavailable',
-  application_link: 'not configured: contact details and product terms remain blank',
+  application_link: 'not configured: lender, eligibility, application method and contact details remain blank',
   source_commit: 'GitHub Pages, main:/docs',
 };
 fs.writeFileSync('verification.json', JSON.stringify(report, null, 2) + '\n');

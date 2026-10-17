@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-17T06:14:16.504Z",
+  "checked_at": "2026-10-17T06:56:05.265Z",
   "pages_checked": 4,
   "local_references_checked": 123,
   "links_and_assets": "pass",
   "javascript": "none required: navigation and FAQ use native HTML",
   "browser_visual_review": "not run: required control-browser is unavailable",
-  "application_link": "not configured: contact details and product terms remain blank",
+  "application_link": "not configured: lender, eligibility, application method and contact details remain blank",
   "source_commit": "GitHub Pages, main:/docs"
 }

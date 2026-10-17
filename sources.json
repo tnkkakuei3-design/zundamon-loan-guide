@@ -7,11 +7,19 @@
     },
     {
       "url": "https://www.j-fsa.or.jp/personal/borrowing/diagnosis/loanlife/",
-      "use": "一般的な返済試算の位置づけ。独自の元利均等計算を実装"
+      "use": "一般的な借入前の返済計画の確認。独自の返済シミュレーターは削除済み"
     },
     {
       "url": "https://cyber.promise.co.jp/contents/html/LP_BAA_html01_index.html",
       "use": "最短表示には条件があり状況により希望に沿えない場合があることの確認。対象商品としての紹介ではない"
+    },
+    {
+      "url": "https://www.aiful.co.jp/starter/cardloan/detail/",
+      "use": "ユーザー指定の6項目（極度額・金利・返済期間回数・遅延損害金・返済方式・担保保証人）の照合と掲載条件の出典"
+    },
+    {
+      "url": "https://www.aiful.co.jp/starter/cardloan/",
+      "use": "商品案内の1万円～800万円の表記を照合"
     }
   ],
   "character": {
@@ -29,9 +37,9 @@
     "source": "@fontsource-variable/noto-sans-jp from existing video project"
   },
   "missing_information": [
-    "金融会社・金融商品名",
-    "正式な申込先URL",
-    "運営者情報",
+    "貸付事業者・申込対象・申込方法",
+    "正式な申込先URL・電話番号",
+    "運営者の所在地・登録情報",
     "キャラクターの広告利用に適用する許諾"
   ]
 }

@@ -167,6 +167,10 @@ th:first-child, td:first-child { text-align: left; }
 .information-table { width: 100%; text-align: left; font-size: 14px; }
 .information-table th { width: 48%; padding: 15px 16px; background: var(--paper); font-weight: 500; white-space: normal; }
 .information-table td { padding: 15px 16px; white-space: normal; }
+.product-table { table-layout: fixed; }
+.product-table th { width: 36%; }
+.product-table th, .product-table td { vertical-align: top; overflow-wrap: anywhere; }
+.table-note { display: block; margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.85; }
 .section-note { margin-top: 18px; font-size: 12px; line-height: 1.9; color: var(--muted); }
 .flow-list { margin: 0; padding: 0; list-style: none; }
 .flow-list li { display: grid; grid-template-columns: 34px 1fr; gap: 16px; border-top: 1px solid var(--line); padding: 22px 0; }
